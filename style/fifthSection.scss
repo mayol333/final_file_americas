@@ -1,0 +1,113 @@
+.one-stars-div{
+    width: 290px;
+    height: 200px;
+    border: 1px solid $gray_border;
+    margin-right: 10px;
+}
+.green-star{
+    width: 15px;
+    height: 15px;
+    background-color: $green_star;
+    margin-right: 3px;
+}
+.grey-star{
+    width: 15px;
+    height: 15px;
+    background-color: $gray_background;
+    margin-right: 3px;
+}
+.stars-container{
+    display: flex;
+    margin-left: 15px;
+}
+.stars-container-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.august{
+    margin-right: 15px;
+    color: $gray;
+}
+.star-div-headline{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.star-div-pharagraph{
+    color: $gray;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.star-div-name{
+    margin-left: 15px;
+    margin-top: 55px;
+}
+.fifth-section-main-div{
+    display: flex;
+    padding-top: 60px;
+    align-items: center;
+}
+.two-stars-div{
+    width: 290px;
+    height: 200px;
+    border: 1px solid $gray_border;
+    margin-right: 10px;
+}
+.three-stars-div{
+    width: 290px;
+    height: 200px;
+    border: 1px solid $gray_border;
+    margin-right: 10px;
+}
+.four-stars-div{
+    width: 290px;
+    height: 200px;
+    border: 1px solid $gray_border;
+    margin-right: 10px;
+}
+.five-section-div{
+    display: flex;
+    justify-content: space-around;
+}
+.first-arrow-button{
+    height: 15px;
+    scale: 5;
+    background-color: $white;
+    color: $gray;
+    padding-left: 120px;
+}
+.second-arrow-button{
+    height: 15px;
+    scale: 5;
+    background-color: $white;
+    color: $gray;
+    padding-right: 120px;
+}
+.fifth-section{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.five-section-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.gold-number{
+    color: $gold;
+}
+.trust-span{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.pilot-span{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $gray;
+}
+.trust-pilot{
+    margin-top: 10px;
+    padding-bottom: 50px;
+}

@@ -1,0 +1,17 @@
+.master-wrapper{
+    max-width: $wrapper_max_width;
+    margin: 0 auto;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.half-width {  
+    width: 50%;
+    height: 613px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}

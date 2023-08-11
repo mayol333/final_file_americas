@@ -1,0 +1,65 @@
+.third-section-div{
+    background-image: url("/Home page/images slice/special-offer-bg.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.h2{
+    color: $white;
+    position: relative;
+    margin-top: 50px;
+    &::after{
+        display: block;
+        content: '';
+        width: 55px;
+        height: 2px;
+        background-color: $white;
+        margin-top: 20px;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        bottom: -10px;
+    }
+}
+.third-section-text-1{
+    color: $gray_font;
+    margin-top: 30px;
+}
+.three-months-free{
+    color: $white;
+    font-weight: bold;
+}
+.third-section-text-2{
+    color: $gray_font;
+    margin-top: 20px;
+}
+.third-section-text-3{
+    color: $gray_font;
+    margin-top: 15px;
+}
+.activate-button{
+color: $white;
+background-color: $red_2;
+height: 40px;
+width: 150px;
+margin-right: 15px;
+text-transform: uppercase;
+font-weight: bold;
+}
+.chat-button{
+color: $red_1;
+background-color: $white;
+height: 40px;
+width: 150px;
+text-transform: uppercase;
+font-weight: bold;
+}
+.buttons{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}

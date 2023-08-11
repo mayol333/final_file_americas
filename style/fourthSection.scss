@@ -1,0 +1,118 @@
+.fourth-section{
+background-color: $gray_background;
+}
+.your-name-input{
+    border: 1px $gray_border solid;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: $white;
+}
+.name-icon{
+    margin-inline: 10px;
+}
+.name-placeholder{
+    margin-left: 10px;
+}
+.your-industry-select{
+    background-color: $white;
+    border: 1px $gray_border solid;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.industry-select{
+    background-color: $white;
+    color: $gray;
+}
+.industry-icon{
+    margin-inline: 10px;
+}
+.email-separator{
+    margin-right: 10px;
+}
+.your-estimated-usage-select{
+    background-color: $white;
+    border: 1px $gray_border solid;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.estimated-usage{
+    background-color: $white;
+    color: $gray;
+}
+.time-icon{
+    margin-inline: 10px;
+}
+.your-email-input{
+    border: 1px $gray_border solid;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: $white;
+}
+.email-icon{
+    margin-inline: 10px;
+}
+.your-phone-input{
+    border: 1px $gray_border solid;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: $white;
+}
+.phone-icon{
+    margin-inline: 10px;
+}
+.phone-placeholder{
+    margin-left: 10px;
+}
+.quote-button{
+    background-color: $red_1;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.quote-button-text{
+    color: $white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.inputs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.fourth-section-h2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.request-quote{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    &::after{
+        display: block;
+        content: '';
+        width: 55px;
+        height: 2px;
+        background-color: $red_2;
+        margin-top: 20px;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        bottom: 30px;
+    }
+}

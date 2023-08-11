@@ -1,0 +1,7 @@
+.third-section-div {
+  background-image: url("/Home page/images slice/special-offer-bg.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }

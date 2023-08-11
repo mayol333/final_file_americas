@@ -1,0 +1,24 @@
+.six-section{
+    background-color: $blue_light_3;
+    height: 300px;
+}
+.six-section-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.six-section-div{
+    width: 33.33%;
+    display: flex;
+}
+.six-text{
+    color: $gray_font;
+}
+.six-div-img{
+    margin-right: 20px;
+}
+.six-section-headline{
+    color: $white;
+    font-weight: bold;
+}

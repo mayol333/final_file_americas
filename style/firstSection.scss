@@ -1,0 +1,41 @@
+.first-section{
+    background-image: url("/Home page/images slice/banner.jpg");
+    height: 613px;
+    background-size: cover;
+}
+.first-headline{
+    color: $blue_light_1;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    &::after{
+        display: block;
+        content: '';
+        width: 55px;
+        height: 2px;
+        background-color: $red_2;
+        margin-top: 20px;
+    }
+}
+.first-section-link{
+    text-decoration: none;
+    color: $black;
+    font-weight: bold;
+}
+.first-section-list{
+    list-style-type: none;
+    margin-block: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 60px;
+    justify-content: space-between;
+}
+.first-section-button{
+    color: $white;
+    background-color: $red_1;
+    padding-inline: 15px;
+    padding-block: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}

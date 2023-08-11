@@ -1,0 +1,14 @@
+.second-section-list-item {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px; }
+
+.second-section-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.second-section {
+  height: 400px; }
