@@ -1,0 +1,13 @@
+.contact-first-section{
+    background-image: url("/Contact Us/image slice/banner.jpg");
+    background-size: cover;
+    height: 200px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-headline{
+    text-transform: uppercase;
+    color: $blue_light_1;
+}
