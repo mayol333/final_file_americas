@@ -1,0 +1,10 @@
+.second-section-story-container {
+  display: flex;
+  padding-top: 40px;
+  gap: 70px; }
+
+.story-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  word-break: keep-all; }

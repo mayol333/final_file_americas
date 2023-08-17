@@ -1,0 +1,29 @@
+.second-section-story-container{
+    display: flex;
+    padding-top: 40px;
+    gap: 70px;
+}
+.story-headline{
+    &::after{
+        display: block;
+        content: '';
+        width: 55px;
+        height: 2px;
+        background-color: $red_2;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+.story-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    word-break: keep-all;
+}
+.story-second-headline{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.story-section-pharagraph{
+    line-height: 20px;
+}
