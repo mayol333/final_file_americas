@@ -639,3 +639,47 @@
   text-transform: uppercase;
   width: 10%;
   height: 50px; }
+
+.second-section-offers {
+  background-color: #f1f1f1; }
+
+.second-section-offers-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 50px; }
+
+.coupon-div {
+  background-color: #ffffff;
+  width: 350px;
+  height: 400px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px; }
+
+.subscribers {
+  color: #da3247;
+  font-weight: bold;
+  padding-bottom: 30px; }
+
+.coupon-pharagraph {
+  color: #747474;
+  padding-bottom: 15px; }
+  .coupon-pharagraph::after {
+    display: block;
+    content: '';
+    width: 300px;
+    height: 1px;
+    background-color: #747474;
+    margin-top: 20px; }
+
+.expires {
+  color: #747474; }
+
+.expires-date {
+  font-weight: bold; }
