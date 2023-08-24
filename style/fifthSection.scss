@@ -53,18 +53,30 @@
     height: 200px;
     border: 1px solid $gray_border;
     margin-right: 10px;
+    display: none;
+    @media (min-width: $breakpoint_sm) {
+        display: block;
+    }
 }
 .three-stars-div{
     width: 290px;
     height: 200px;
     border: 1px solid $gray_border;
     margin-right: 10px;
+    display: none;
+    @media (min-width: $breakpoint_md) {
+        display: block;
+    }
 }
 .four-stars-div{
     width: 290px;
     height: 200px;
     border: 1px solid $gray_border;
     margin-right: 10px;
+    display: none;
+    @media  (min-width: $breakpoint_lg) {
+        display: block;
+    }
 }
 .five-section-div{
     display: flex;
@@ -75,14 +87,14 @@
     scale: 5;
     background-color: $white;
     color: $gray;
-    padding-left: 120px;
+    //padding-left: 120px;
 }
 .second-arrow-button{
     height: 15px;
     scale: 5;
     background-color: $white;
     color: $gray;
-    padding-right: 120px;
+    //padding-right: 120px;
 }
 .fifth-section{
     display: flex;
@@ -110,4 +122,7 @@
 .trust-pilot{
     margin-top: 10px;
     padding-bottom: 50px;
+}
+.gray-background{
+    background-color: $gray_background;
 }

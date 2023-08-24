@@ -419,19 +419,31 @@
   width: 290px;
   height: 200px;
   border: 1px solid #c4c0c0;
-  margin-right: 10px; }
+  margin-right: 10px;
+  display: none; }
+  @media (min-width: 576px) {
+    .two-stars-div {
+      display: block; } }
 
 .three-stars-div {
   width: 290px;
   height: 200px;
   border: 1px solid #c4c0c0;
-  margin-right: 10px; }
+  margin-right: 10px;
+  display: none; }
+  @media (min-width: 768px) {
+    .three-stars-div {
+      display: block; } }
 
 .four-stars-div {
   width: 290px;
   height: 200px;
   border: 1px solid #c4c0c0;
-  margin-right: 10px; }
+  margin-right: 10px;
+  display: none; }
+  @media (min-width: 992px) {
+    .four-stars-div {
+      display: block; } }
 
 .five-section-div {
   display: flex;
@@ -441,15 +453,13 @@
   height: 15px;
   scale: 5;
   background-color: #ffffff;
-  color: #747474;
-  padding-left: 120px; }
+  color: #747474; }
 
 .second-arrow-button {
   height: 15px;
   scale: 5;
   background-color: #ffffff;
-  color: #747474;
-  padding-right: 120px; }
+  color: #747474; }
 
 .fifth-section {
   display: flex;
@@ -477,6 +487,9 @@
 .trust-pilot {
   margin-top: 10px;
   padding-bottom: 50px; }
+
+.gray-background {
+  background-color: #f1f1f1; }
 
 .six-section {
   background-color: #076bb0;
