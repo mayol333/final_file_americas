@@ -710,3 +710,39 @@
 
 .story-section-pharagraph {
   line-height: 20px; }
+
+.specialty-type {
+  width: 400px;
+  height: 50px;
+  border: 1px #c4c0c0 solid;
+  background-color: #ffffff;
+  padding-left: 20px; }
+
+.specialties-second-section-div {
+  margin-top: 60px;
+  margin-bottom: 70px; }
+
+.specialties-button {
+  height: 50px;
+  width: 70px;
+  background-color: #da3247;
+  color: #ffffff;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 20px; }
+
+.specialties-images {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  gap: 20px; }
+
+.speciality-type-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.specialty-title {
+  margin-top: 10px;
+  font-weight: 500; }
