@@ -34,3 +34,38 @@
     margin-top: 10px;
     font-weight: 500;
 }
+.modal-wrapper{
+    position:absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba($color: #000000, $alpha: 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.modal-content{
+    width: 500px;
+    height: 500px;
+    background-color: $white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.x-icon{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.show-modal{
+    display: flex;
+}
+.modal-img{
+    width: 300px;
+    height: 300px;
+}
