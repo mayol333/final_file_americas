@@ -41,6 +41,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: $white;
 }
 .second-header-list{
     list-style-type: none;
@@ -66,4 +67,10 @@
 }
 .call-us-number{
     font-weight: bold;
+}
+.sticky-header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
 }

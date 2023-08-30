@@ -1,6 +1,11 @@
-const accordion = document.getElementsByClassName("contentBox");
-for (i = 0; i < accordion.length; i++) {
-    accordion[i].addEventListener("click", function () {
+const accordion = document.querySelectorAll(".contentBox");
+accordion.forEach((element, index) => {
+    element.addEventListener("click", function () {
         this.classList.toggle("active");
+        accordion.forEach((el, inx) => {
+            if (inx !== index) {
+                el.classList.remove("active");
+            }
+        });
     });
-}
+});
