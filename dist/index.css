@@ -794,3 +794,61 @@
 .modal-img {
   width: 300px;
   height: 300px; }
+
+.faq-second-section {
+  margin-top: 60px; }
+
+.accordion-div {
+  background-color: #f1f1f1;
+  width: 550px;
+  border: 1px #c4c0c0 solid; }
+
+.faq-img-and-text {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 20px; }
+
+.jobs-headline {
+  font-size: 20px; }
+
+.accordion .contentBox {
+  position: relative;
+  margin: 10px 20px; }
+
+.accordion .contentBox .faq-label {
+  position: relative;
+  padding: 10px; }
+
+.cursor-pointer {
+  cursor: pointer; }
+
+.accordion .contentBox .faq-content {
+  position: relative;
+  background-color: #ffffff;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  overflow-y: auto; }
+
+.accordion .contentBox.active .faq-content {
+  height: 150px;
+  padding: 10px; }
+
+.contentBox {
+  border: 1px #c4c0c0 solid; }
+
+.white-back {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column; }
+
+.faq-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.faq-second-section-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px; }
